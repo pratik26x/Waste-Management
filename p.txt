@@ -1,0 +1,2 @@
+C:\Users\hp\AppData\Roaming\Python\Scripts\poetry shell
+python manage.py runserver

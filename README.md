@@ -77,11 +77,11 @@ poetry run python manage.py runserver
 6. Access the application:
 
 Open your browser and go to http://localhost:8000.
-
+---
 API Endpoints
 
 The application provides RESTful APIs for managing waste records, users, and reports. Below are some key endpoints:
-
+---
 User Authentication:
 
 POST /api/auth/register/: Register a new user.
@@ -89,7 +89,7 @@ POST /api/auth/register/: Register a new user.
 POST /api/auth/login/: Log in and obtain JWT tokens.
 
 POST /api/auth/refresh/: Refresh JWT tokens.
-
+---
 Waste Management:
 
 GET /api/waste/: Get all waste records.
@@ -99,14 +99,14 @@ POST /api/waste/: Add a new waste record.
 PUT /api/waste/<id>/: Update a waste record.
 
 DELETE /api/waste/<id>/: Delete a waste record.
-
+---
 Reports:
 
 GET /api/reports/: Generate and download waste management reports in PDF format.
-
+---
 Deployment
 To deploy the application to a production environment:
-
+---
 Install Gunicorn:
 ```bash
 poetry add gunicorn
@@ -147,7 +147,7 @@ Push to the branch:
 git push origin feature/your-feature-name
 ```
 Open a pull request.
-
+---
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 ---

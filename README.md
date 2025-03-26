@@ -171,6 +171,13 @@ Inspired by global efforts to promote sustainability and efficient waste managem
 
 ---
 
+![Demo](demo.gif)
+## Features
+- Real-time waste tracking
+- AI-powered sorting
+
+---
+
 ### **How to Use This README**
 1. Copy the entire content above.
 2. Paste it into a file named `README.md` in the root directory of your project.
@@ -181,4 +188,3 @@ Inspired by global efforts to promote sustainability and efficient waste managem
 ---
 
 
-   
